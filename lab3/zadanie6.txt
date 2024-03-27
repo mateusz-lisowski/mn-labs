@@ -1,0 +1,6 @@
+Metoda iteracyjna Jacobiego rozbiega się do nieskończoności, bo jest metodą iteracyjną która jest tylko przybliżeniem,
+który w danym przypadku danych dla filtru mikrofalowego rozbiega się do nieskończoności.
+Metoda iteracyjna Gaussa-Seidla na początku wartość błędu zbiega się do 0 a potem rozbiega się do niekończoności, 
+natomiast znacznie wolniej niż w metodzie Jacobiego. Jako, że również jest metodą iteracyjną również rozbiega się do nieskończoności.
+Rozwiązanie w obu przypadkach jest coraz mniej dokładne, ponieważ norma błędu rezydualnego rośnie.
+Dzieje się tak, ponieważ metody iteracyjne nie są doskonałe, i dla niektórych przypadków takich jak dane tego filtru nie działają.

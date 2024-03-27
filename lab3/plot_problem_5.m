@@ -9,7 +9,6 @@ function plot_problem_5(N, time_Jacobi, time_Gauss_Seidel, iterations_Jacobi, it
     xlabel('Rozmiar macierzy');
     ylabel('Czas [s]');
     legend('Metoda Jacobiego', 'Metoda Gaussa-Seidla', 'Location', 'eastoutside');
-    axis equal; % Równa skala na osiach x i y
 
     % Drugi wykres: liczba iteracji wymagana do wyznaczenia rozwiązania
     subplot(2,1,2);
@@ -18,7 +17,6 @@ function plot_problem_5(N, time_Jacobi, time_Gauss_Seidel, iterations_Jacobi, it
     xlabel('Rozmiar macierzy');
     ylabel('Liczba iteracji');
     legend('Metoda Jacobiego', 'Metoda Gaussa-Seidla', 'Location', 'eastoutside');
-    axis equal; % Równa skala na osiach x i y
 
     saveas(gcf, 'zadanie5.png');
 end

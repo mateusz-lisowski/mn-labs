@@ -24,7 +24,7 @@ function [A, b, M, bm, x, err_norm, time, index_number, iterations] = solve_Gaus
     iterations = 0;
     
     % Warunek zakończenia algorytmu
-    max_iterations = 1000;
+    max_iterations = 100;
     residual_threshold = 1e-12;
     
     % Pomiar czasu

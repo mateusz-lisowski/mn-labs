@@ -12,10 +12,10 @@ function [A, b, M, bm, x, err_norm, time, index_number, iterations] = solve_Jaco
     D = diag(diag(A));
     
     % Inicjalizacja macierzy M jako odwrotność macierzy diagonalnej A
-    M = -inv(D) * (L + U);
+    M = -D \ (L + U);
     
     % Inicjalizacja wektora bm jako iloczyn element-wise macierzy M i wektora b
-    bm = inv(D) * b;
+    bm = D \ b;
     
     % Inicjalizacja wektora x jako wektora jednostkowego
     x = ones(N, 1);

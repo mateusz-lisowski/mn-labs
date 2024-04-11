@@ -1,0 +1,17 @@
+Wynik dla pierwszego punktu startowego (x0 = 6.0):
+Miejsce zerowe: 6.283185
+Wartość funkcji w miejscu zerowym: -0.000000
+Flaga zakończenia: 1
+Dodatkowe informacje:
+Zero found in the interval [5.66059, 6.33941]
+Ilość iteracji: 6
+
+Wynik dla drugiego punktu startowego (x0 = 4.5):
+Miejsce zerowe: 4.712389
+Wartość funkcji w miejscu zerowym: 510190062007397.125000
+Flaga zakończenia: -5
+Dodatkowe informacje:
+Current point x may be near a singular point. The interval [4.24544, 4.75456] 
+reduced to the requested tolerance and the function changes sign in the interval,
+but f(x) increased in magnitude as the interval reduced.
+Ilość iteracji: 61

@@ -15,3 +15,6 @@ Current point x may be near a singular point. The interval [4.24544, 4.75456]
 reduced to the requested tolerance and the function changes sign in the interval,
 but f(x) increased in magnitude as the interval reduced.
 Ilość iteracji: 61
+
+Ponieważ, druga wartość jest blisko punktu nieciągłości,
+to próba rozwiązania trwa dłużej i jest mniej dokładna.

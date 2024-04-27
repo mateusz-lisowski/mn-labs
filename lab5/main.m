@@ -1,0 +1,1 @@
+[M,N,P,R,x_coarse,y_coarse,F_coarse,x_fine,y_fine,F_fine] = zadanie5();
